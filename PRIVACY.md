@@ -27,4 +27,5 @@ tracking of any kind.
 
 ## Contact
 
-If you have questions about this tool, contact: [your email here]
+If you have questions about this tool, contact: lalosoccer2009@gmail.com
+
