@@ -47,11 +47,13 @@ def main():
         sys.exit(1)
 
     print(f"Authorizing channel: {config.get('channel_name', config_path.stem)}")
-    print("A browser window will open. Log into the Google account that "
-          "owns THIS specific channel.\n")
 
     flow = InstalledAppFlow.from_client_secrets_file(str(client_secret_file), SCOPES)
-    credentials = flow.run_local_server(port=0)
+    print("If two of your channels share the same Google login, open an "
+          "Incognito/Private window FIRST, log into youtube.com there, and "
+          "switch to the correct channel before pasting the URL below into "
+          "that same Incognito window.\n")
+    credentials = flow.run_local_server(port=0, open_browser=False)
 
     token_file.parent.mkdir(parents=True, exist_ok=True)
     with open(token_file, "wb") as f:
