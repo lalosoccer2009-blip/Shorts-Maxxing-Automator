@@ -1,0 +1,15 @@
+{
+  "_comment_category_ids": "Common YouTube category IDs: 17=Sports, 20=Gaming, 22=People & Blogs, 23=Comedy, 24=Entertainment, 26=Howto & Style, 27=Education, 28=Science & Technology",
+
+  "channel_name": "Channel 2 - fill in a label for yourself",
+  "niche": "describe the niche/topic in a sentence, e.g. 'soccer highlights and skill breakdowns'",
+  "tone": "e.g. hype, fast-paced commentary",
+  "audience": "e.g. soccer fans who follow major leagues",
+  "category_id": "17",
+  "made_for_kids": false,
+  "default_hashtags": ["#Shorts"],
+
+  "client_secret_file": "auth/client_secret.json",
+  "token_file": "auth/token_channel2.pickle",
+  "video_folder": "videos/channel2"
+}
