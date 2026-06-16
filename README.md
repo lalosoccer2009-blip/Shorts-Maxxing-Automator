@@ -5,6 +5,10 @@ drafts the title/description/tags, you review and edit the draft right in
 your terminal, then it uploads to the correct channel with a scheduled
 publish time. No paid services required.
 
+This tool uses YouTube API Services. See [PRIVACY.md](./PRIVACY.md) for the
+privacy policy, including what data is accessed, how it's stored, and how
+to delete it.
+
 ## How it works
 
 1. You drop a finished Short into `videos/<channel>/`.
